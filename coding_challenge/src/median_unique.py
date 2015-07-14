@@ -9,8 +9,8 @@ try:
 	outfile = sys.argv[2]
 except IndexError:
 	# default input and output files
-	infile = "../tweet_input/tweets.txt"
-	outfile = "../tweet_output/ft2.txt"
+	infile = "./tweet_input/tweets.txt"
+	outfile = "./tweet_output/ft2.txt"
 
 # read tweets.txt file
 

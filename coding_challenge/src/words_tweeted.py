@@ -8,8 +8,8 @@ try:
 	outfile = sys.argv[2]
 except IndexError:
 	# default value for input and output files
-	infile = "../tweet_input/tweets.txt"
-	outfile = "../tweet_output/ft1.txt"
+	infile = "./tweet_input/tweets.txt"
+	outfile = "./tweet_output/ft1.txt"
 
 # open input file for reading
 tweetfile = open(infile,"r")
